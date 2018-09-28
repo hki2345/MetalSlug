@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19F875FC-62BA-4F79-A7CF-AA891DE4FD17}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MeKaSlug</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>MeKaSlug</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath);C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;</IncludePath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath);D:\Class\5.1 - AssortRock\Work\MekaSlug\MeKaSlug_0330_02\FMOD Studio API Windows\api\lowlevel\lib;</LibraryWPath>
+    <OutDir>..\bin</OutDir>
+    <LibraryPath>$(LibraryPath);C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath);C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;</IncludePath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath);D:\Class\5.1 - AssortRock\Work\MekaSlug\MeKaSlug_0330_02\FMOD Studio API Windows\api\lowlevel\lib;</LibraryWPath>
+    <OutDir>..\bin</OutDir>
+    <LibraryPath>$(LibraryPath);C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath);C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;</IncludePath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath);D:\Class\5.1 - AssortRock\Work\MekaSlug\MeKaSlug_0330_02\FMOD Studio API Windows\api\lowlevel\lib;</LibraryWPath>
+    <LibraryPath>$(LibraryPath);C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;</LibraryPath>
+    <OutDir>..\bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath);C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\inc;</IncludePath>
+    <LibraryWPath>$(WindowsSDK_MetadataPath);D:\Class\5.1 - AssortRock\Work\MekaSlug\MeKaSlug_0330_02\FMOD Studio API Windows\api\lowlevel\lib;</LibraryWPath>
+    <LibraryPath>$(LibraryPath);C:\Program Files (x86)\FMOD SoundSystem\FMOD Studio API Windows\api\lowlevel\lib;</LibraryPath>
+    <OutDir>..\bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);X32</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions);X64</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions);X32</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions);X64</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alpha_Renderer.h" />
+    <ClInclude Include="Animator.h" />
+    <ClInclude Include="BaseEnemy.h" />
+    <ClInclude Include="BaseState.h" />
+    <ClInclude Include="BaseStream.h" />
+    <ClInclude Include="Begin.h" />
+    <ClInclude Include="Begin_DE.h" />
+    <ClInclude Include="Bit_Renderer.h" />
+    <ClInclude Include="BossMgr.h" />
+    <ClInclude Include="Boss_Bottom.h" />
+    <ClInclude Include="Bullet_Basic.h" />
+    <ClInclude Include="Bullet_Heavy.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="ColliderManager.h" />
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="Effect_Bradley.h" />
+    <ClInclude Include="Effect_FireWater.h" />
+    <ClInclude Include="Effect_MagmaCannon.h" />
+    <ClInclude Include="Effect_SaruBead.h" />
+    <ClInclude Include="Effect_Sarubia.h" />
+    <ClInclude Include="Effect_Tank.h" />
+    <ClInclude Include="Enemy_Bomb.h" />
+    <ClInclude Include="Enemy_Boss.h" />
+    <ClInclude Include="Enemy_Bradley.h" />
+    <ClInclude Include="Enemy_Cannon.h" />
+    <ClInclude Include="Enemy_Tank.h" />
+    <ClInclude Include="MapData_Creator.h" />
+    <ClInclude Include="Enemy_MachineGun.h" />
+    <ClInclude Include="One_BottomEffect.h" />
+    <ClInclude Include="One_Effect.h" />
+    <ClInclude Include="One_EndBG.h" />
+    <ClInclude Include="One_NumberFont.h" />
+    <ClInclude Include="One_BS_Eri.h" />
+    <ClInclude Include="One_BS_Front.h" />
+    <ClInclude Include="One_BS_Leona.h" />
+    <ClInclude Include="One_BS_Pinset.h" />
+    <ClInclude Include="One_BS_Select_Cover.h" />
+    <ClInclude Include="One_BS_Select_Eri.h" />
+    <ClInclude Include="One_BS_Select_Leona.h" />
+    <ClInclude Include="One_Data_Loader.h" />
+    <ClInclude Include="One_MultiFont.h" />
+    <ClInclude Include="One_Stage_CCover.h" />
+    <ClInclude Include="One_Stage_SCover.h" />
+    <ClInclude Include="Pinset_FixData.h" />
+    <ClInclude Include="Pinset_Renderer.h" />
+    <ClInclude Include="Enemy_Sarubian.h" />
+    <ClInclude Include="Enemy_Walker.h" />
+    <ClInclude Include="FsmWorker.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Item_Heavy.h" />
+    <ClInclude Include="KeyManager.h" />
+    <ClInclude Include="KMacro.h" />
+    <ClInclude Include="MathManager.h" />
+    <ClInclude Include="MatrixInfo.h" />
+    <ClInclude Include="MeKaSlug.h" />
+    <ClInclude Include="MS_Arrow_Side.h" />
+    <ClInclude Include="MS_Mission_Select.h" />
+    <ClInclude Include="MS_Select_Normal.h" />
+    <ClInclude Include="MultiSprite.h" />
+    <ClInclude Include="One_BackGround.h" />
+    <ClInclude Include="One_BS_BackGround.h" />
+    <ClInclude Include="One_BS_Cover.h" />
+    <ClInclude Include="One_MS_BackGround.h" />
+    <ClInclude Include="One_Stage1Collider.h" />
+    <ClInclude Include="One_Stage2.h" />
+    <ClInclude Include="One_Stage2Collider.h" />
+    <ClInclude Include="One_Stage3.h" />
+    <ClInclude Include="One_Stage3Collider.h" />
+    <ClInclude Include="One_StageBoss.h" />
+    <ClInclude Include="One_StageBossCollider.h" />
+    <ClInclude Include="One_Weapon.h" />
+    <ClInclude Include="One_Edit_Enemy.h" />
+    <ClInclude Include="One_Item.h" />
+    <ClInclude Include="One_Player.h" />
+    <ClInclude Include="One_Stage1.h" />
+    <ClInclude Include="PathManager.h" />
+    <ClInclude Include="PlayerMgr.h" />
+    <ClInclude Include="Player_Eri.h" />
+    <ClInclude Include="Player_Leona.h" />
+    <ClInclude Include="ReadStream.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Renderer_Single_Image.h" />
+    <ClInclude Include="RenderManager.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Sound_Player.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="State_Barracks.h" />
+    <ClInclude Include="State_Boss.h" />
+    <ClInclude Include="State_Debug_S1.h" />
+    <ClInclude Include="State_Debug_S2.h" />
+    <ClInclude Include="State_Debug_S3.h" />
+    <ClInclude Include="State_Debug_SB.h" />
+    <ClInclude Include="State_End.h" />
+    <ClInclude Include="State_Enemy_Edit.h" />
+    <ClInclude Include="State_EriDeb.h" />
+    <ClInclude Include="State_Game.h" />
+    <ClInclude Include="State_LeonaDeb.h" />
+    <ClInclude Include="State_Military_System.h" />
+    <ClInclude Include="State_Stage01.h" />
+    <ClInclude Include="State_Stage02.h" />
+    <ClInclude Include="State_Stage03.h" />
+    <ClInclude Include="State_Title.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TheOne.h" />
+    <ClInclude Include="TheOne_DE.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="Trans_Renderer.h" />
+    <ClInclude Include="Weapon_Bomb.h" />
+    <ClInclude Include="Weapon_EnemyBomb.h" />
+    <ClInclude Include="Weapon_EnemyBradley.h" />
+    <ClInclude Include="Weapon_EnemyBullet.h" />
+    <ClInclude Include="Weapon_EnemyCannon.h" />
+    <ClInclude Include="Weapon_EnemySaruBead.h" />
+    <ClInclude Include="Weapon_EnemyTankCannon.h" />
+    <ClInclude Include="Weapon_FireWave.h" />
+    <ClInclude Include="Weapon_MagmaCannon.h" />
+    <ClInclude Include="Weapon_MedicineCannon.h" />
+    <ClInclude Include="Weapon_Moon.h" />
+    <ClInclude Include="Weapon_Sword.h" />
+    <ClInclude Include="WriteStream.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Alpha_Renderer.cpp" />
+    <ClCompile Include="Animator.cpp" />
+    <ClCompile Include="BaseEnemy.cpp" />
+    <ClCompile Include="BaseState.cpp" />
+    <ClCompile Include="BaseStream.cpp" />
+    <ClCompile Include="Bit_Renderer.cpp" />
+    <ClCompile Include="BossMgr.cpp" />
+    <ClCompile Include="Boss_Bottom.cpp" />
+    <ClCompile Include="Bullet_Basic.cpp" />
+    <ClCompile Include="Bullet_Heavy.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="ColliderManager.cpp" />
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Effect_Bradley.cpp" />
+    <ClCompile Include="Effect_FireWater.cpp" />
+    <ClCompile Include="Effect_MagmaCannon.cpp" />
+    <ClCompile Include="Effect_SaruBead.cpp" />
+    <ClCompile Include="Effect_Sarubia.cpp" />
+    <ClCompile Include="Effect_Tank.cpp" />
+    <ClCompile Include="Enemy_Bomb.cpp" />
+    <ClCompile Include="Enemy_Boss.cpp" />
+    <ClCompile Include="Enemy_Bradley.cpp" />
+    <ClCompile Include="Enemy_Cannon.cpp" />
+    <ClCompile Include="Enemy_Tank.cpp" />
+    <ClCompile Include="MapData_Creator.cpp" />
+    <ClCompile Include="Enemy_MachineGun.cpp" />
+    <ClCompile Include="One_BottomEffect.cpp" />
+    <ClCompile Include="One_Effect.cpp" />
+    <ClCompile Include="One_EndBG.cpp" />
+    <ClCompile Include="One_NumberFont.cpp" />
+    <ClCompile Include="One_BS_Eri.cpp" />
+    <ClCompile Include="One_BS_Front.cpp" />
+    <ClCompile Include="One_BS_Leona.cpp" />
+    <ClCompile Include="One_BS_Pinset.cpp" />
+    <ClCompile Include="One_BS_Select_Cover.cpp" />
+    <ClCompile Include="One_BS_Select_Eri.cpp" />
+    <ClCompile Include="One_BS_Select_Leona.cpp" />
+    <ClCompile Include="One_Data_Loader.cpp" />
+    <ClCompile Include="One_MultiFont.cpp" />
+    <ClCompile Include="One_Stage_CCover.cpp" />
+    <ClCompile Include="One_Stage_SCover.cpp" />
+    <ClCompile Include="Pinset_FixData.cpp" />
+    <ClCompile Include="Pinset_Renderer.cpp" />
+    <ClCompile Include="Enemy_Sarubian.cpp" />
+    <ClCompile Include="Enemy_Walker.cpp" />
+    <ClCompile Include="FsmWorker.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Item_Heavy.cpp" />
+    <ClCompile Include="KeyManager.cpp" />
+    <ClCompile Include="MathManager.cpp" />
+    <ClCompile Include="MatrixInfo.cpp" />
+    <ClCompile Include="MeKaSlug.cpp" />
+    <ClCompile Include="MS_Arrow_Side.cpp" />
+    <ClCompile Include="MS_Mission_Select.cpp" />
+    <ClCompile Include="MS_Select_Normal.cpp" />
+    <ClCompile Include="MultiSprite.cpp" />
+    <ClCompile Include="One_BackGround.cpp" />
+    <ClCompile Include="One_BS_BackGround.cpp" />
+    <ClCompile Include="One_BS_Cover.cpp" />
+    <ClCompile Include="One_MS_BackGround.cpp" />
+    <ClCompile Include="One_Stage1Collider.cpp" />
+    <ClCompile Include="One_Stage2.cpp" />
+    <ClCompile Include="One_Stage2Collider.cpp" />
+    <ClCompile Include="One_Stage3.cpp" />
+    <ClCompile Include="One_Stage3Collider.cpp" />
+    <ClCompile Include="One_StageBoss.cpp" />
+    <ClCompile Include="One_StageBossCollider.cpp" />
+    <ClCompile Include="One_Weapon.cpp" />
+    <ClCompile Include="One_Edit_Enemy.cpp" />
+    <ClCompile Include="One_Item.cpp" />
+    <ClCompile Include="One_Player.cpp" />
+    <ClCompile Include="One_Stage1.cpp" />
+    <ClCompile Include="PathManager.cpp" />
+    <ClCompile Include="PlayerMgr.cpp" />
+    <ClCompile Include="Player_Eri.cpp" />
+    <ClCompile Include="Player_Leona.cpp" />
+    <ClCompile Include="ReadStream.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Renderer_Single_Image.cpp" />
+    <ClCompile Include="RenderManager.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Sound_Player.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="State_Barracks.cpp" />
+    <ClCompile Include="State_Boss.cpp" />
+    <ClCompile Include="State_Debug_S1.cpp" />
+    <ClCompile Include="State_Debug_S2.cpp" />
+    <ClCompile Include="State_Debug_S3.cpp" />
+    <ClCompile Include="State_Debug_SB.cpp" />
+    <ClCompile Include="State_End.cpp" />
+    <ClCompile Include="State_Enemy_Edit.cpp" />
+    <ClCompile Include="State_EriDeb.cpp" />
+    <ClCompile Include="State_Game.cpp" />
+    <ClCompile Include="State_LeonaDeb.cpp" />
+    <ClCompile Include="State_Military_System.cpp" />
+    <ClCompile Include="State_Stage01.cpp" />
+    <ClCompile Include="State_Stage02.cpp" />
+    <ClCompile Include="State_Stage03.cpp" />
+    <ClCompile Include="State_Title.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TheOne.cpp" />
+    <ClCompile Include="TheOne_DE.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="Trans_Renderer.cpp" />
+    <ClCompile Include="Weapon_Bomb.cpp" />
+    <ClCompile Include="Weapon_EnemyBomb.cpp" />
+    <ClCompile Include="Weapon_EnemyBradley.cpp" />
+    <ClCompile Include="Weapon_EnemyBullet.cpp" />
+    <ClCompile Include="Weapon_EnemyCannon.cpp" />
+    <ClCompile Include="Weapon_EnemySaruBead.cpp" />
+    <ClCompile Include="Weapon_EnemyTankCannon.cpp" />
+    <ClCompile Include="Weapon_FireWave.cpp" />
+    <ClCompile Include="Weapon_MagmaCannon.cpp" />
+    <ClCompile Include="Weapon_MedicineCannon.cpp" />
+    <ClCompile Include="Weapon_Moon.cpp" />
+    <ClCompile Include="Weapon_Sword.cpp" />
+    <ClCompile Include="WriteStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MeKaSlug.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MeKaSlug.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

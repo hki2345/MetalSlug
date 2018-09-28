@@ -1,0 +1,20 @@
+VK_LEFT		: 왼쪽 방향키
+VK_RIGHT 		: 오른쪽 방향키
+VK_UP		: 위쪽 방향키
+VK_DOWN		: 아래쪽 방향키
+
+VK_RETURN        : 엔터(Enter)키
+VK_SPACE		: 스페이스(Space) 키
+VK_ESCAPE 	: ESC키
+VK_INSERT		: Insert 키
+VK_DELETE		: Delete 키
+VK_CONTROL	: Ctrl 키
+VK_MENU		: Alt 키
+VK_SHIFT		: Shift 키
+VK_CAPITAL	: Caps Lock 키
+
+VK_HELP		: F2 키
+VK_F1 ~ VK_F24	: F1~F24 까지의 키 일반적인 키보드는 F12까지 사용
+
+VK_LBUTTON 	: 마우스 왼쪽 버튼 클릭
+VK_RBUTTON 	: 마우스 오른쪽 버튼 클릭

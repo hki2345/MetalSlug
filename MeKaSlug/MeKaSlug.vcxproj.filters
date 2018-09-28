@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ZZZStd">
+      <UniqueIdentifier>{e4e94d9a-5c1a-4f61-a0f6-86f225e9fd3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLauncher">
+      <UniqueIdentifier>{65819ab7-b815-456e-9f73-a2fdcbd58392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3b1e7a72-f093-4821-ae7e-8b7d72396474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{4cd8dff2-1f3a-4135-a622-60252c032f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne">
+      <UniqueIdentifier>{d9ec5d11-d674-4a06-9a56-28cb265a487f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1ba3cfe6-aec1-43c9-b6b5-50d301a99a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\CoreHeader">
+      <UniqueIdentifier>{82e82fce-efad-484c-98ff-053f8d424415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\OneDeluxeEdition">
+      <UniqueIdentifier>{874005ff-996e-4095-9de6-eba80eb0a237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\OneDeluxeEdition\Collider">
+      <UniqueIdentifier>{0aaae518-cec7-448d-974a-b694549b9a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play">
+      <UniqueIdentifier>{9a822dbf-3b14-4d66-a021-d28cd8359a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Title">
+      <UniqueIdentifier>{b617ccdc-826a-4bfa-9ae3-18630b1188fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{5f6baf99-5574-407d-8314-94b2a8bd2fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Player">
+      <UniqueIdentifier>{9bcd4011-2ebc-41f9-882f-3db44ac9afd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Enemy">
+      <UniqueIdentifier>{04b25f83-5b26-41f4-8979-ff34a92f1221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Item">
+      <UniqueIdentifier>{4ddb314d-6679-4228-b5b1-3a649c31b933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Stream">
+      <UniqueIdentifier>{7df67f2b-054c-41e9-9f6f-b236c7b8f667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Stage">
+      <UniqueIdentifier>{635aaa28-54e6-4b37-879b-14bf71d2e9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Edit">
+      <UniqueIdentifier>{31843360-713d-4bbd-9882-17b4965082b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Image">
+      <UniqueIdentifier>{cc7b1a19-a34b-477a-8e7c-61680fef4aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Sound">
+      <UniqueIdentifier>{8c7f6fb2-4343-4089-90f3-a9a3e6e18d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\OneDeluxeEdition\Sound_Player">
+      <UniqueIdentifier>{133d656e-15a4-4aef-b5b2-66ce614d5bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Weapon">
+      <UniqueIdentifier>{fcca1f27-5a59-47e8-ac93-54bb5ebf984f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicMgr">
+      <UniqueIdentifier>{678a23a4-ca4a-478a-9844-1087230aa0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicMgr\Fsm">
+      <UniqueIdentifier>{6e8ae2eb-e9ae-4178-b9af-47210c0fc2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Military_System">
+      <UniqueIdentifier>{e523eda3-b6c7-4301-b6e6-56fffc316044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\OneDeluxeEdition\Renderer">
+      <UniqueIdentifier>{61e26532-3ea4-4233-b566-caee409f1392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\OneDeluxeEdition\Renderer\Renderer">
+      <UniqueIdentifier>{c3f82f0a-c3b8-4131-952a-7918bd31ae8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Stage">
+      <UniqueIdentifier>{0cb7edb4-de59-42c5-a2f5-088ec968ae36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\OneDeluxeEdition\Data">
+      <UniqueIdentifier>{67dc1593-a776-4797-b39f-8810e640b564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Barracks">
+      <UniqueIdentifier>{058b422f-4608-4ae4-850e-5eb47a97afd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\UI">
+      <UniqueIdentifier>{1a663ce4-e586-4491-925c-add2fe254131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Stage\UI">
+      <UniqueIdentifier>{c96bf9e2-ebd2-41d6-b40b-d0c5e4d19bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\OneDeluxeEdition\Font">
+      <UniqueIdentifier>{53ad51e9-5a27-46a3-8045-4f3494342ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Effect">
+      <UniqueIdentifier>{c3324154-d328-46cb-a204-dfb3a808f4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Weapon\Enemy">
+      <UniqueIdentifier>{8de3c37a-b57d-4f2c-a695-b77c217b1423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Weapon\Player">
+      <UniqueIdentifier>{2eacc06c-374d-4417-b024-37ac281b8352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Effect\Saru">
+      <UniqueIdentifier>{b62ad7d6-c6a1-4280-91f3-8936e0aef554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Boss">
+      <UniqueIdentifier>{61288a8c-7a14-4724-878f-911a2fc7a0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Boss\MagmaCannon">
+      <UniqueIdentifier>{6f90fb99-5ff1-4719-ade2-70bb0e7f3e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Boss\FireWave">
+      <UniqueIdentifier>{ac95388a-5c56-45fb-bf44-825008d3b16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Edit">
+      <UniqueIdentifier>{30980db8-cdee-4e4e-bab8-c298ee134a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\Edit\Debug">
+      <UniqueIdentifier>{d2908a3a-3421-4d7c-85a1-2952a193dae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheOne\Play\Boss\MedicineCannon">
+      <UniqueIdentifier>{8489724a-6647-4989-8f86-53d12cb29322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>ZZZStd</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ZZZStd</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ZZZStd</Filter>
+    </ClInclude>
+    <ClInclude Include="MeKaSlug.h">
+      <Filter>GameLauncher</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Game.h">
+      <Filter>State\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="TheOne.h">
+      <Filter>TheOne</Filter>
+    </ClInclude>
+    <ClInclude Include="TheOne_DE.h">
+      <Filter>TheOne</Filter>
+    </ClInclude>
+    <ClInclude Include="KMacro.h">
+      <Filter>Core\CoreHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixInfo.h">
+      <Filter>Core\CoreHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Begin.h">
+      <Filter>Core\CoreHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Begin_DE.h">
+      <Filter>Core\CoreHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MathManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit_Renderer.h">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer_Single_Image.h">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Trans_Renderer.h">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>TheOne\OneDeluxeEdition\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BackGround.h">
+      <Filter>TheOne\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>TheOne\OneDeluxeEdition\Renderer\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Player.h">
+      <Filter>TheOne\Play\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Leona.h">
+      <Filter>TheOne\Play\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Walker.h">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Item.h">
+      <Filter>TheOne\Play\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseStream.h">
+      <Filter>Manager\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadStream.h">
+      <Filter>Manager\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteStream.h">
+      <Filter>Manager\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Boss.h">
+      <Filter>State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Stage01.h">
+      <Filter>State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Stage02.h">
+      <Filter>State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Stage03.h">
+      <Filter>State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Title.h">
+      <Filter>State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Edit_Enemy.h">
+      <Filter>TheOne\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Enemy_Edit.h">
+      <Filter>State\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiSprite.h">
+      <Filter>Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Resource\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound_Player.h">
+      <Filter>TheOne\OneDeluxeEdition\Sound_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Stage1.h">
+      <Filter>TheOne\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Eri.h">
+      <Filter>TheOne\Play\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Heavy.h">
+      <Filter>TheOne\Play\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMgr.h">
+      <Filter>LogicMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FsmWorker.h">
+      <Filter>LogicMgr\Fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Bomb.h">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Sarubian.h">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_MachineGun.h">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Military_System.h">
+      <Filter>State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="One_MS_BackGround.h">
+      <Filter>TheOne\Military_System</Filter>
+    </ClInclude>
+    <ClInclude Include="MS_Arrow_Side.h">
+      <Filter>TheOne\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="MS_Mission_Select.h">
+      <Filter>TheOne\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="MS_Select_Normal.h">
+      <Filter>TheOne\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Alpha_Renderer.h">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Cannon.h">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Stage2.h">
+      <Filter>TheOne\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Stage3.h">
+      <Filter>TheOne\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="One_StageBoss.h">
+      <Filter>TheOne\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Stage1Collider.h">
+      <Filter>TheOne\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Stage2Collider.h">
+      <Filter>TheOne\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Stage3Collider.h">
+      <Filter>TheOne\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="One_StageBossCollider.h">
+      <Filter>TheOne\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEnemy.h">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Pinset_Renderer.h">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MapData_Creator.h">
+      <Filter>TheOne\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Data_Loader.h">
+      <Filter>TheOne\OneDeluxeEdition\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Pinset_FixData.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_BackGround.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_Cover.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_Select_Leona.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_Front.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_Select_Cover.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_Select_Eri.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Barracks.h">
+      <Filter>State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_Pinset.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_Eri.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BS_Leona.h">
+      <Filter>TheOne\Barracks</Filter>
+    </ClInclude>
+    <ClInclude Include="State_EriDeb.h">
+      <Filter>State\Edit\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="State_LeonaDeb.h">
+      <Filter>State\Edit\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Debug_S1.h">
+      <Filter>State\Edit\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Debug_S2.h">
+      <Filter>State\Edit\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Debug_S3.h">
+      <Filter>State\Edit\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="State_Debug_SB.h">
+      <Filter>State\Edit\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Stage_CCover.h">
+      <Filter>TheOne\Stage\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Stage_SCover.h">
+      <Filter>TheOne\Stage\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="One_MultiFont.h">
+      <Filter>TheOne\OneDeluxeEdition\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="One_NumberFont.h">
+      <Filter>TheOne\OneDeluxeEdition\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Effect.h">
+      <Filter>TheOne\Play\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_EnemyBomb.h">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Basic.h">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Heavy.h">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Bomb.h">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Sword.h">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="One_Weapon.h">
+      <Filter>TheOne\Play\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_EnemyCannon.h">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_EnemyBullet.h">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_EnemySaruBead.h">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_SaruBead.h">
+      <Filter>TheOne\Play\Effect\Saru</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_Sarubia.h">
+      <Filter>TheOne\Play\Effect\Saru</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_EnemyTankCannon.h">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Tank.h">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_Tank.h">
+      <Filter>TheOne\Play\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Bradley.h">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_EnemyBradley.h">
+      <Filter>TheOne\Play\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_Bradley.h">
+      <Filter>TheOne\Play\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Boss.h">
+      <Filter>TheOne\Play\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Bottom.h">
+      <Filter>TheOne\Play\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="One_BottomEffect.h">
+      <Filter>TheOne\Play\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_MagmaCannon.h">
+      <Filter>TheOne\Play\Boss\MagmaCannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_MagmaCannon.h">
+      <Filter>TheOne\Play\Boss\MagmaCannon</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_FireWave.h">
+      <Filter>TheOne\Play\Boss\FireWave</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_FireWater.h">
+      <Filter>TheOne\Play\Boss\FireWave</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_MedicineCannon.h">
+      <Filter>TheOne\Play\Boss\MedicineCannon</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMgr.h">
+      <Filter>LogicMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="State_End.h">
+      <Filter>State\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="One_EndBG.h">
+      <Filter>TheOne\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon_Moon.h">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MeKaSlug.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MeKaSlug.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>ZZZStd</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ZZZStd</Filter>
+    </ClCompile>
+    <ClCompile Include="MeKaSlug.cpp">
+      <Filter>GameLauncher</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Game.cpp">
+      <Filter>State\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="TheOne.cpp">
+      <Filter>TheOne</Filter>
+    </ClCompile>
+    <ClCompile Include="TheOne_DE.cpp">
+      <Filter>TheOne</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixInfo.cpp">
+      <Filter>Core\CoreHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MathManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bit_Renderer.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer_Single_Image.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Trans_Renderer.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BackGround.cpp">
+      <Filter>TheOne\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Renderer\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Player.cpp">
+      <Filter>TheOne\Play\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Leona.cpp">
+      <Filter>TheOne\Play\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Walker.cpp">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Item.cpp">
+      <Filter>TheOne\Play\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseStream.cpp">
+      <Filter>Manager\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadStream.cpp">
+      <Filter>Manager\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteStream.cpp">
+      <Filter>Manager\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Boss.cpp">
+      <Filter>State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Stage01.cpp">
+      <Filter>State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Stage02.cpp">
+      <Filter>State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Stage03.cpp">
+      <Filter>State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Title.cpp">
+      <Filter>State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Edit_Enemy.cpp">
+      <Filter>TheOne\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Enemy_Edit.cpp">
+      <Filter>State\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSprite.cpp">
+      <Filter>Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Resource\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound_Player.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Sound_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Stage1.cpp">
+      <Filter>TheOne\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Eri.cpp">
+      <Filter>TheOne\Play\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Heavy.cpp">
+      <Filter>TheOne\Play\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMgr.cpp">
+      <Filter>LogicMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FsmWorker.cpp">
+      <Filter>LogicMgr\Fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Bomb.cpp">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Sarubian.cpp">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_MachineGun.cpp">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Military_System.cpp">
+      <Filter>State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="One_MS_BackGround.cpp">
+      <Filter>TheOne\Military_System</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_Arrow_Side.cpp">
+      <Filter>TheOne\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_Mission_Select.cpp">
+      <Filter>TheOne\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_Select_Normal.cpp">
+      <Filter>TheOne\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Alpha_Renderer.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Cannon.cpp">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Stage2.cpp">
+      <Filter>TheOne\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Stage3.cpp">
+      <Filter>TheOne\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="One_StageBoss.cpp">
+      <Filter>TheOne\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Stage1Collider.cpp">
+      <Filter>TheOne\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Stage2Collider.cpp">
+      <Filter>TheOne\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Stage3Collider.cpp">
+      <Filter>TheOne\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="One_StageBossCollider.cpp">
+      <Filter>TheOne\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEnemy.cpp">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Pinset_Renderer.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MapData_Creator.cpp">
+      <Filter>TheOne\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Data_Loader.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Pinset_FixData.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_BackGround.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_Cover.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_Front.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_Select_Cover.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_Select_Eri.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_Select_Leona.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Barracks.cpp">
+      <Filter>State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_Pinset.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_Eri.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BS_Leona.cpp">
+      <Filter>TheOne\Barracks</Filter>
+    </ClCompile>
+    <ClCompile Include="State_EriDeb.cpp">
+      <Filter>State\Edit\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="State_LeonaDeb.cpp">
+      <Filter>State\Edit\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Debug_S1.cpp">
+      <Filter>State\Edit\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Debug_S2.cpp">
+      <Filter>State\Edit\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Debug_S3.cpp">
+      <Filter>State\Edit\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Debug_SB.cpp">
+      <Filter>State\Edit\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Stage_CCover.cpp">
+      <Filter>TheOne\Stage\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Stage_SCover.cpp">
+      <Filter>TheOne\Stage\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="One_MultiFont.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="One_NumberFont.cpp">
+      <Filter>TheOne\OneDeluxeEdition\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Effect.cpp">
+      <Filter>TheOne\Play\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_EnemyBomb.cpp">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Basic.cpp">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Heavy.cpp">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Bomb.cpp">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Sword.cpp">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="One_Weapon.cpp">
+      <Filter>TheOne\Play\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_EnemyCannon.cpp">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_EnemyBullet.cpp">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_EnemySaruBead.cpp">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_SaruBead.cpp">
+      <Filter>TheOne\Play\Effect\Saru</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_Sarubia.cpp">
+      <Filter>TheOne\Play\Effect\Saru</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_EnemyTankCannon.cpp">
+      <Filter>TheOne\Play\Weapon\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Tank.cpp">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_Tank.cpp">
+      <Filter>TheOne\Play\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Bradley.cpp">
+      <Filter>TheOne\Play\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_EnemyBradley.cpp">
+      <Filter>TheOne\Play\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_Bradley.cpp">
+      <Filter>TheOne\Play\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Boss.cpp">
+      <Filter>TheOne\Play\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Bottom.cpp">
+      <Filter>TheOne\Play\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="One_BottomEffect.cpp">
+      <Filter>TheOne\Play\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_MagmaCannon.cpp">
+      <Filter>TheOne\Play\Boss\MagmaCannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_MagmaCannon.cpp">
+      <Filter>TheOne\Play\Boss\MagmaCannon</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_FireWave.cpp">
+      <Filter>TheOne\Play\Boss\FireWave</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_FireWater.cpp">
+      <Filter>TheOne\Play\Boss\FireWave</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_MedicineCannon.cpp">
+      <Filter>TheOne\Play\Boss\MedicineCannon</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMgr.cpp">
+      <Filter>LogicMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="State_End.cpp">
+      <Filter>State\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="One_EndBG.cpp">
+      <Filter>TheOne\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon_Moon.cpp">
+      <Filter>TheOne\Play\Weapon\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
