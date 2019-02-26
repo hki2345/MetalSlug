@@ -42,8 +42,8 @@ std::vector<Pinset_Renderer::PinsetData> One_Data_Loader::DataLoad(const WCHAR* 
 	ReadStream MapStream = ReadStream(FILE_PATH_NOT_L(L"Data", m_map_FilePath.c_str()));
 	ReadStream PinStream = ReadStream(FILE_PATH_NOT_L(L"Data", m_pin_FilePath.c_str()));
 	
-	size_t map_Size;
-	size_t pin_Size;
+	int map_Size;
+	int pin_Size;
 
 	MapStream >> map_Size;
 	PinStream >> pin_Size;
@@ -51,14 +51,14 @@ std::vector<Pinset_Renderer::PinsetData> One_Data_Loader::DataLoad(const WCHAR* 
 	MapData_Creator::EnemyData LoadEnemyData;
 	Pinset_Renderer::PinsetData LoadPinData;
 
-	for (size_t i = 0; i < map_Size; i++)
+	for (int i = 0; i < map_Size; i++)
 	{
 		MapStream >> LoadEnemyData;
 
 		m_p_Data->Insert_Enemy(LoadEnemyData.m_EPos, (MapData_Creator::Enemy_DataIndex)LoadEnemyData.EnemyIndex);
 	}
 
-	for (size_t i = 0; i < pin_Size; i++)
+	for (int i = 0; i < pin_Size; i++)
 	{
 		PinStream >> LoadPinData;
 
